@@ -1,11 +1,12 @@
 import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { CabecalhoComponent } from './componentes/cabecalho/cabecalho.component';
+import { HelloworldComponent } from './componentes/helloworld.component/helloworld.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [CabecalhoComponent, HelloworldComponent],
   templateUrl: './app.html',
-  styleUrl: './app.scss'
+  styleUrls: ['./app.scss']
 })
 export class App {
   protected readonly title = signal('Project');
