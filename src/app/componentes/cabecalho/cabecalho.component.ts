@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-cabecalho',
-  imports: [],
+  standalone: true,
   templateUrl: './cabecalho.component.html',
   styleUrls: ['./cabecalho.component.scss']
 })
