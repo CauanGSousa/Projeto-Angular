@@ -1,4 +1,4 @@
-import { Livro } from "./componentes/livros/livro.interface";
+import { Livro } from "./componentes/livro/livro.interface";
 
 export const livros: Livro[] = [
   {

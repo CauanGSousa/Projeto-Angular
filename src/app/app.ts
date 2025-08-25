@@ -2,11 +2,13 @@ import { Component, signal } from '@angular/core';
 import { CabecalhoComponent } from './componentes/cabecalho/cabecalho.component';
 import { RodapeComponent } from './componentes/rodape/rodape.component';
 import { ListaLivros } from './componentes/lista-livros/lista-livros';
+import { GenerosLiterarios } from './componentes/generos-literarios/generos-literarios';
+
 
 
 @Component({
   selector: 'app-root',
-  imports: [CabecalhoComponent, RodapeComponent, ListaLivros],
+  imports: [CabecalhoComponent, RodapeComponent, ListaLivros, GenerosLiterarios],
   templateUrl: './app.html',
   styleUrls: ['./app.scss']
 })

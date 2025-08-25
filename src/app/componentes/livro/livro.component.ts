@@ -2,12 +2,12 @@ import { Component, input } from '@angular/core';
 import { Livro } from './livro.interface';
 
 @Component({
-  selector: 'app-livros',
+  selector: 'app-livro',
   standalone: true,
-  templateUrl: './livros.component.html',
-  styleUrls: ['./livros.component.scss']
+  templateUrl: './livro.component.html',
+  styleUrls: ['./livro.component.scss']
 })
-export class LivrosComponent {
+export class LivroComponent {
 
 livro = input.required<Livro>();
 
